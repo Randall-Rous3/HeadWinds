@@ -1,0 +1,16 @@
+.navigation-bar{
+    width: 100%;
+    background-color: black;
+}
+.home,.about,.collections{
+    text-decoration: none;
+    color: aliceblue;
+}
+.links{
+    display: flex;
+    justify-content: space-around;
+}
+.home:hover, .about:hover, .collections:hover{
+    transform: scale(1.3);
+}
+

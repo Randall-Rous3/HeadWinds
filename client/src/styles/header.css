@@ -1,0 +1,10 @@
+.header{
+    width: 100%;
+    height: 20em;
+    background-color: black;
+    justify-content: flex-start;
+}
+.title{
+    color: azure;
+    font-size: 10em;
+}
