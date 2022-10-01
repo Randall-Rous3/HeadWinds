@@ -1,0 +1,18 @@
+{
+  "development": {
+    "database": "headwinds",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  },
+  "test": {
+    "database": "headwinds",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  },
+  "production": {
+    "password": null,
+    "database": "headwinds",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  }
+}
