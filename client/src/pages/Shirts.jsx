@@ -1,5 +1,6 @@
 import axios from 'axios';
 // import { response } from 'express';
+import '../styles/shirts.css'
 import { useEffect, useState } from 'react';
 import ShirtsCard from '../components/ShirtsCard';
 
@@ -16,12 +17,11 @@ const [shirts, setShirts] = useState([])
 
     useEffect(() => {
         getAllShirts()
-        console.log(shirts)
     }, [])
 
 
     return(
-        <div>
+        <div className='card-grid'>
         {shirts.map((shirt) => (
             <ShirtsCard
                 name={shirt.size}

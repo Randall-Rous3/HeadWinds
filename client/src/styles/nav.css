@@ -15,4 +15,7 @@
 .home:hover, .about:hover, .collections:hover{
     transform: scale(1.3);
 }
-
+.collection-selector{
+    background-color: black;
+    color: aliceblue;
+}
