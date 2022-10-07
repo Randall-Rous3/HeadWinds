@@ -28,9 +28,22 @@ const CreateShirt = async (req, res) => {
       throw error;
     }
   };
+  const UpdateShirtDetails = async (req, res) => {
+    try {
+      let ShirtId = parseInt(req.params.id);
+      let updatedShirt = await Shirts.update(req.body, {
+        where: { id: ShirtId },
+        returning: true
+      });
+      res.send(updatedShirt);
+    } catch (error) {
+      throw error;
+    }
+  };
 
 module.exports = {
     GetAllShirts,
     CreateShirt,
-    GetShirtById
+    GetShirtById,
+    UpdateShirtDetails
 }

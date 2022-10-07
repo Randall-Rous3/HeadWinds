@@ -3,9 +3,10 @@
 const ShirtsCard = props => {
 
     return(
-        <div>
-            <h1>{props.name}</h1>
-            <h1>{props.material}</h1>
+        <div className="card">
+            <h1> Size: {props.name}</h1>
+            <h1>Material: {props.material}</h1>
+            <img className="image" src={props.image}/>
         </div>
     )
 }

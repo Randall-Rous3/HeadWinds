@@ -7,6 +7,7 @@ import Landing from './components/Landing';
 import About from './pages/About';
 import Collections from './pages/Collections';
 import Header from './components/Header';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Route path='/about' element={<About/>}/>
         <Route path='/collections' element={<Collections/>}/>
       </Routes>
+      <Footer/>
     </div>
   );
 }

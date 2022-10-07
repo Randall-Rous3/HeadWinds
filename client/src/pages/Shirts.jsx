@@ -26,7 +26,7 @@ const [shirts, setShirts] = useState([])
             <ShirtsCard
                 name={shirt.size}
                 material={shirt.material}
-                console={console.log(shirt.name)}
+                image={shirt.image}
                 />
         ))}
         </div>
