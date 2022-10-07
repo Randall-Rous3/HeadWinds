@@ -5,12 +5,17 @@
 .home,.about,.collections{
     text-decoration: none;
     color: aliceblue;
+    margin: .2em;
 }
 .links{
     display: flex;
     justify-content: space-around;
+    margin: .2em;
 }
 .home:hover, .about:hover, .collections:hover{
     transform: scale(1.3);
 }
-
+.collection-selector{
+    background-color: black;
+    color: aliceblue;
+}

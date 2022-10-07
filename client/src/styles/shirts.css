@@ -1,0 +1,18 @@
+.card-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+.image{
+    height: 5em;
+    width: auto;
+}
+.card {
+    border: .1em solid black;
+    border-radius: 10%;
+    margin: 2em;
+}
+.card:hover{
+    transform: scale(1.1);
+}
